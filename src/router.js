@@ -1,4 +1,8 @@
+import React from 'react'
+import { render } from 'react-dom'
 import Router from 'ampersand-router'
+import HomePage from './pages/home'
+
 
 export default Router.extend({
   routes: {
@@ -7,7 +11,7 @@ export default Router.extend({
   },
 
   home () {
-    console.log('you are home')
+    render(<HomePage/>, document.body.firstChild)
   },
 
   login () {
