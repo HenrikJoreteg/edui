@@ -1,11 +1,10 @@
-var React = require('react')
-var ReactDom = require('react-dom')
+import React from 'react'
+import { render } from 'react-dom'
 
-
-var Hello = React.createClass({
-  render: function () {
+const Hello = React.createClass({
+  render () {
     return <div>hello, {this.props.name}</div>
   }
 })
 
-ReactDom.render(<Hello name='edUi'/>, document.body)
+render(<Hello name='edUi'/>, document.body)
