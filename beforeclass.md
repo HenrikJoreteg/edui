@@ -6,7 +6,7 @@ So, if at all possible try to get the following things working before the worksh
 
 ## Things you'll need
 
-1. node.js and npm installed. I will be running node 4.2.2 and npm 3.3.12, but version 0.10 or newer should be fine.
+1. node.js and npm installed. I will be running node 4.2.2 and npm 3.3.12, but version 4.x.x or newer should be fine.
 2. some kind of terminal or command prompt where you can run commands
 3. a text editor of your choice. I'll be using [Sublime Text](http://www.sublimetext.com/) but most any will do.
 4. A free account on GitHub.com with at least one "repo" in it. If you don't have one [create one here](https://github.com/) and then follow instructions to create a repo. It doesn't even have to have anything in it, just needs to exist.
