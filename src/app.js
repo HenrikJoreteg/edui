@@ -1,10 +1,10 @@
-import React from 'react'
-import { render } from 'react-dom'
+import Router from './router'
 
-const Hello = React.createClass({
-  render () {
-    return <div>hello, {this.props.name}</div>
+window.app = {
+  init () {
+    this.router = new Router()
+    this.router.history.start()
   }
-})
+}
 
-render(<Hello name='edUi'/>, document.body)
+window.app.init()
