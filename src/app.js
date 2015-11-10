@@ -4,9 +4,10 @@ import BookCollection from './models/book-collection'
 
 window.app = {
   init () {
+    this.books = new BookCollection()
+
     this.router = new Router()
     this.router.history.start()
-    this.books = new BookCollection()
   }
 }
 

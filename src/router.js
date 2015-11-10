@@ -22,7 +22,7 @@ export default Router.extend({
   },
 
   home () {
-    this.render(<HomePage/>)
+    this.render(<HomePage books={window.app.books}/>)
   },
 
   login () {
