@@ -1,6 +1,6 @@
 {
   "name": "library-client",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Henrik Joreteg <henrik@joreteg.com>",
   "dependencies": {
     "ampersand-app": "^1.0.4",
